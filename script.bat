@@ -1,26 +1,26 @@
 echo off
-md Pisarev
-cd Pisarev
-md Dmitry
-md Ilich
+md Rodin
+cd Rodin
+md Alexei
+md Mikhailovich
 cd..
 echo catalogs created!
 pause
-cd Pisarev
-echo > 14062001.txt
-cd Ilich
-echo > HP_14s-dq0045ur.txt
+cd Rodin
+echo > 03072001.txt
+cd Mikhailovich
+echo > Personal.txt
 cd..
 cd..
 echo files created!
 pause
-del Pisarev /S /Q /F
+del Rodin /S /Q /F
 echo files deleted!
 pause
-cd Pisarev
-rd Ilich
-rd Dmitry
+cd Rodin
+rd Mikhailovich
+rd Alexei
 cd..
-rd Pisarev
+rd Rodin
 echo catalogs deleted!
 pause
